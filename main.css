@@ -1,1 +1,74 @@
 @import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+}
+
+main {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 60%;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 33.33%;
+  width: 33.33%;
+}
+
+#title {
+  width: 66.66%;
+  background-color: #50484D;
+  text-align: left;
+  padding: 2rem;
+}
+
+h1 {
+  width: 66.66%;
+}
+
+#first {
+  background-color: #AE9474;
+}
+
+#second {
+  background-color: #D7E0E7; 
+}
+
+#third {
+  background-color: #393537; 
+}
+
+#fourth {
+  background-color: #4C434B;
+}
+
+#fifth {
+  background-color: #73727D;
+}
+
+#sixth {
+  background-color: #8E9098;
+}
+
+#seventh {
+  background-color: #50484D;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 40%;
+}
