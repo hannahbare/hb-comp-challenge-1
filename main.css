@@ -5,9 +5,10 @@
 }
 
 body {
-  /*position: relative;*/
   margin: 0;
-  font-size: 20px;
+  font-size: 26px;
+  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
 }
 
 main {
@@ -18,10 +19,6 @@ main {
   width: 60%;
 }
 
-article {
-  height: 33.33%;
-  width: 33.33%;
-}
 
 #title {
   padding: 2rem;
@@ -37,12 +34,17 @@ h1 {
   width: 66.66%;
 }
 
+p {
+  margin: 1rem 0;
+  font-size: 1.4rem;
+}
+
 button {
   width: 8rem;
   height: 3.2rem;
   font-size: 1rem;
   border: 3px solid #3F4043;
-  background-color: #5dbca3;
+  background-color: #5DBCA3;
   color: #3F4043;
 }
 
@@ -55,12 +57,16 @@ button {
   margin-left: 1rem;
 }
 
+.mobile__img {
+  display: none;
+}
+
 .boxes {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   height: 33.33%;
   width: 33.33%;
 }
@@ -74,7 +80,7 @@ button {
 }
 
 .box__words {
-  padding-top: 0.8rem;
+  padding-top: 0.9rem;
 }
 
 #first {
@@ -126,16 +132,47 @@ button {
 }
 
 #aside__arrow--right {
-  right: 1.4rem;
+  right: 2.4rem;
   top: 24rem;
 }
 
 #aside__arrow--left {
-  right: 35%;
+  right: 34%;
   top: 24rem;
 }
 
 #aside__menu--dots {
   right: 2%;
-  top: 0.5rem;
+  top: 2px;
+}
+
+@media (max-width: 1000px){
+  
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+
+  #title {
+    height: 14rem;
+    width: 100%;
+  }
+
+  .mobile__img {
+    display: inline-block;
+    height: 100%;
+    width: 100vw;
+  }
+
+  .boxes {
+    height: 10rem;
+    width: 100%;
+  }
+
+  aside {
+    display: none;
+  }
+
 }
