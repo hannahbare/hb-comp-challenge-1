@@ -5,70 +5,137 @@
 }
 
 body {
-  position: relative;
+  /*position: relative;*/
   margin: 0;
   font-size: 20px;
 }
 
 main {
-  margin: 0;
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
   height: 100vh;
   width: 60%;
 }
 
-.boxes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+article {
   height: 33.33%;
   width: 33.33%;
 }
 
 #title {
-  width: 66.66%;
-  background-color: #50484D;
-  text-align: left;
   padding: 2rem;
+  background-color: #5dbca3;
+  color: #3F4043;
+  text-align: left;
+  width: 66.66%;
 }
 
 h1 {
+  margin: 0;
+  font-size: 2.2rem;
   width: 66.66%;
 }
 
+button {
+  width: 8rem;
+  height: 3.2rem;
+  font-size: 1rem;
+  border: 3px solid #3F4043;
+  background-color: #5dbca3;
+  color: #3F4043;
+}
+
+.title__btn--icon {
+  width: 1.1rem;
+  vertical-align: bottom;
+}
+
+#title__btn--contact {
+  margin-left: 1rem;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1rem;
+  height: 33.33%;
+  width: 33.33%;
+}
+
+.boxes:hover {
+  opacity: 0.8;
+}
+
+.box__icons {
+  width: 4rem;
+}
+
+.box__words {
+  padding-top: 0.8rem;
+}
+
 #first {
-  background-color: #AE9474;
+  background-color: #f5aa32;
 }
 
 #second {
-  background-color: #D7E0E7; 
+  background-color: #D4EEB2; 
 }
 
 #third {
-  background-color: #393537; 
+  background-color: #B32E08; 
 }
 
 #fourth {
-  background-color: #4C434B;
+  background-color: #5dbca3;
 }
 
 #fifth {
-  background-color: #73727D;
+  background-color: #488B8A;
 }
 
 #sixth {
-  background-color: #8E9098;
+  background-color: #D4EEB2;
 }
 
 #seventh {
-  background-color: #50484D;
+  background-color: #e5bb3e;
 }
 
-img {
+#aside__background--img {
   position: absolute;
   top: 0;
   right: 0;
+  background-image: url(photos/icons/steve.png);
+  background-size: cover;
   height: 100vh;
   width: 40%;
+}
+
+#aside__background--img:hover {
+  opacity: 0.8;
+}
+
+.aside__icons {
+  position: absolute;
+  width: 3rem;
+  z-index: 2;
+}
+
+#aside__arrow--right {
+  right: 1.4rem;
+  top: 24rem;
+}
+
+#aside__arrow--left {
+  right: 35%;
+  top: 24rem;
+}
+
+#aside__menu--dots {
+  right: 2%;
+  top: 0.5rem;
 }
