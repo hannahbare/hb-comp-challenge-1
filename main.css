@@ -271,4 +271,8 @@ button:hover {
   h1 {
     padding-top: 0;
   }
+
+  .boxes {
+    font-size: 1.2rem;
+  }
 }
