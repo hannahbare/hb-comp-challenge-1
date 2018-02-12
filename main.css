@@ -207,7 +207,11 @@ button:hover {
 
 @media (max-width: 586px){
   #title {
-    padding: 1.4rem;
+    padding: 1rem;
+  }
+
+  h1 {
+    padding: 0;
   }
 
   p {
@@ -232,11 +236,12 @@ button:hover {
   }
 }
 
-@media (max-width: 313px){
+@media (max-width: 324px){
 
   #title {
-  height: 10rem;
+    height: 10rem;
   }
+
   button {
     display: none;
   }
@@ -252,13 +257,9 @@ button:hover {
   }
 }
 
-@media (max-width: 250px){
+@media (max-width: 264px){
   #title {
     height: 8rem;
-  }
-
-  h1 {
-    padding-top: 1.6rem;
   }
 
   p {
