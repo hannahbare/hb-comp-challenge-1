@@ -4,5 +4,5 @@ The purpose of this static comp is to practice and challenge our CSS skills. I p
 I created a repo in my git and then created a repo in github in order to utilize version control.
 
 ### Comp Images
-[My static comp 1](https://github.com/hannahbare/hb-comp-challenge-1/blob/master/LifeAquaticComp1.png)
-[The original static comp 1](https://github.com/hannahbare/hb-comp-challenge-1/blob/master/OriginalComp1.png)
++ [My static comp 1](https://github.com/hannahbare/hb-comp-challenge-1/blob/master/LifeAquaticComp1.png)
++ [The original static comp 1](https://github.com/hannahbare/hb-comp-challenge-1/blob/master/OriginalComp1.png)
